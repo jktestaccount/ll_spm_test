@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Minutes</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@minutes@</string>
+        <key>minutes</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>d</string>
+            <key>one</key>
+            <string>%1$d minuto</string>
+            <key>other</key>
+            <string>%1$d minutos</string>
+        </dict>
+    </dict>
+    <key>MinutesShort</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@minutes@</string>
+        <key>minutes</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>d</string>
+            <key>one</key>
+            <string>%1$d min</string>
+            <key>other</key>
+            <string>%1$d minutos</string>
+        </dict>
+    </dict>
+    <key>PlusMinutesShort</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@minutes@</string>
+        <key>minutes</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>d</string>
+            <key>one</key>
+            <string>+%1$d min</string>
+            <key>other</key>
+            <string>+%1$d minutos</string>
+        </dict>
+    </dict>
+    <key>route.walk</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@minutes@</string>
+        <key>minutes</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>d</string>
+            <key>one</key>
+            <string>Camine 1 minuto hasta</string>
+            <key>other</key>
+            <string>Camine %1$d minutos hasta</string>
+        </dict>
+    </dict>
+    <key>route.trainWithStops</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>Tome el tren %1$#@stops@ (%2$@) a</string>
+        <key>stops</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>d</string>
+            <key>one</key>
+            <string>%1$d parada</string>
+            <key>other</key>
+            <string>%1$d paradas</string>
+        </dict>
+    </dict>
+    <key>route.busWithStops</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>Tome el autobús %1$#@stops@ (%2$@) a</string>
+        <key>stops</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>d</string>
+            <key>one</key>
+            <string>%1$d parada</string>
+            <key>other</key>
+            <string>%1$d paradas</string>
+        </dict>
+    </dict>
+</dict>
+</plist>

@@ -8,17 +8,21 @@ let package = Package(
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "JKTestPack",
-            targets: ["JKTestPack"]),
+            name: "LocusLabsSDK",
+            targets: ["LocusLabsSDK"]),
+            //targets: ["JKTestPack"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
-        .target(
-            name: "JKTestPack"),
-        .testTarget(
-            name: "JKTestPackTests",
-            dependencies: ["JKTestPack"]
-        ),
+        .binaryTarget(
+            name: "LocusLabsSDK",
+            path: "./Sources/LocusLabsSDK.xcframework"),
+//        .target(
+//            name: "JKTestPack"),
+//        .testTarget(
+//            name: "JKTestPackTests",
+//            dependencies: ["JKTestPack"]
+//        ),
     ]
 )
