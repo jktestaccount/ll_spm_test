@@ -158,6 +158,11 @@
 -(void)openNavigationViewWithStart:(LLPosition*)navStart andEnd:(LLPosition*)navEnd andCurrent:(LLPosition*)current;
 
 /**
+ * Programmatically open the navigation dialog passing in an array of positions
+ */
+-(void)openNavigationViewWithPositions:(NSArray<LLPosition *>*)positions;
+
+/**
  * Programmatically cancel the user initiated navigation.
  */
 - (void)cancelUserNavigation;
