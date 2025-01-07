@@ -15,7 +15,7 @@ let package = Package(
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
-        // More notes added v4
+        // More notes added v5
         .binaryTarget(
             name: "LocusLabsSDK",
             path: "./Sources/LocusLabsSDK.xcframework"),
